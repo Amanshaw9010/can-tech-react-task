@@ -7,7 +7,7 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
   return (
     <>
       {isOpen && <Backdrop onClick={toggleDrawer} />}
-      <SDrawer isOpen={isOpen}>
+      <SDrawer className="SDrawer" isOpen={isOpen}>
         <RightNav>
           <SNavbarBrand>LOGO</SNavbarBrand>
           <NavRoutes>
@@ -56,7 +56,7 @@ const SDrawer = styled.div`
   width: 60%;
   background-color: white;
   transition: 0.3s ease;
-
+  overflow: scroll;
   transform: translateX(${(props) => (props.isOpen ? "0" : "-100%")});
 `;
 
