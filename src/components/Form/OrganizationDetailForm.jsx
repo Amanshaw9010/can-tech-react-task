@@ -35,7 +35,7 @@ const OrganizationDetailForm = () => {
       </div>
 
       <div className="h-3/4  w-full">
-        <form action="#" className="flex flex-col gap-4">
+        <form action="#" className="flex flex-col gap-4 tailwind">
           <div className="flex items-start flex-col gap-2">
             <Label id="Organization" name="Organization Name" />
 

@@ -59,7 +59,7 @@ main {
   transition: 0.8s ease-in-out;
 }
 
-form {
+form:not(.tailwind) {
   max-width: 260px;
   width: 100%;
   margin: 0 auto;
@@ -133,7 +133,7 @@ form.sign-up-form {
   transition: 0.4s;
 }
 
-label {
+label:not(.tailwind) {
   position: absolute;
   left: 0;
   top: 50%;
@@ -148,7 +148,7 @@ label {
   border-bottom-color: #151111;
 }
 
-.input-field.active + label {
+.input-field.active + label:not(.tailwind) {
   font-size: 0.75rem;
   top: -2px;
 }
@@ -301,7 +301,7 @@ main.sign-up-mode .carousel-wrp {
     height: auto;
   }
 
-  form {
+  form:not(.tailwind) {
     max-width: revert;
     padding: 1.5rem 2.5rem 2rem;
     transition: transform 0.8s ease-in-out, opacity 0.45s linear;
@@ -367,7 +367,7 @@ main.sign-up-mode .carousel-wrp {
     font-size: 1.2rem;
   }
 
-  form {
+  form:not(.tailwind) {
     padding: 1rem 2rem 1.5rem;
   }
 }

@@ -16,7 +16,7 @@ const PurposeForm = () => {
       </div>
 
       <div className="h-3/4  w-full">
-        <form action="#" className="flex flex-col gap-4">
+        <form action="#" className="flex flex-col gap-4 tailwind">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-1">
               <input type="radio" id="growth" name="radio" />
