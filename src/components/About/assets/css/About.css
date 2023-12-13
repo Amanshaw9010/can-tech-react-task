@@ -1,0 +1,138 @@
+.content p {
+  margin: 0 6px !important;
+}
+
+.team-card {
+  transition: all 0.3s ease-in-out 0.1s;
+  position: relative;
+  z-index: 1;
+}
+
+.team-card:hover {
+  transform: scale(1.03);
+  border-bottom: 5px solid gray !important;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .team-social-icons {
+    background: #f8f7ff !important;
+    color: #000 !important;
+    gap: 18px !important;
+    opacity: 1 !important;
+  }
+
+  .ytube a {
+    font-size: 18px !important;
+    line-height: 34px !important;
+    padding: 9px 6px !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+  }
+}
+
+.team-social-icons {
+  background: #f8f7ff;
+  color: black;
+  gap: 18px !important;
+}
+
+.team-social-icons,
+.team-social-icons svg {
+  right: 2px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.team-card:hover .team-social-icons {
+  opacity: 1 !important;
+  position: relative;
+}
+
+.team-social-icons svg:hover {
+  transform: scale(0.9);
+}
+
+.partner img {
+  max-width: 400px;
+  max-height: 80px;
+}
+
+.vision img {
+  max-width: 150px !important;
+}
+
+.growth-bg img {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 10px;
+}
+
+.growth-bg {
+  background: "/images/growth-bg.webp";
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+span {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 2rem;
+  margin-bottom: 15px;
+}
+
+.ytube a {
+  font-size: 17px;
+  line-height: 34px;
+  padding: 9px 8px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.ytube a:hover {
+  transform: scale(1.05);
+}
+
+.ytube {
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  max-width: 400px;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.6);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.Hero-section,
+.revolution-section,
+.Trailblazers h3,
+.Teams h3,
+.partner-section h3 {
+  background: var(--bs-blue);
+  color: white;
+}
+
+h3 {
+  font-size: 40px;
+  color: #fff;
+  padding: 45px 0px;
+  font-weight: 600;
+}
+
+.Typewriter {
+  font-size: 2rem;
+  font-weight: 800 !important;
+}
+
+h1 .Typewriter__wrapper {
+  font-size: 2rem;
+}
+
+.Trailblazers span {
+  font-size: 24px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,25 @@
+.landing{
+    height: 600px;
+    overflow: hidden;
+}
+
+@media (max-width:768px){
+    .landing{
+        height: 250px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:1080px){
+    .landing{
+        height: 400px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:640px){
+    .landing{
+        height: 150px;
+        overflow: hidden;
+    }
+}

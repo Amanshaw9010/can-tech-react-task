@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 640px) {
+  .form-Container {
+    flex-direction: column;
+    
+
+    .form-first-container {
+      width: 100%;
+    }
+
+    .form-second-container{
+        width: 100%;
+    }
+
+  }
+}
